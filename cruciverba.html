@@ -1,0 +1,510 @@
+<html>
+    <head>
+        <title>Cruciverba: Io Non Rischio</title>
+        <link rel="stylesheet" href="cruciverba.css">
+        <script src="cruciverba.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1 class="titolo">Io Non Rischio</h1>
+        <h2 class="sottotitolo">Cruciverba</h2>
+        <table border="1px" class="riga1">
+            <tr>
+                <td id="cel1"><p class="text">1.</p><input id="v1" class="vuoto" type="text" maxlength="1" oninput="verticale('v1', 'I', 'cel1', 'v2');"></td>
+                <td id="cel2"><input id="v2" type="text" maxlength="1" oninput="verifica('v2', 'N', 'cel2', 'v3', 'v1')"></td>
+                <td id="cel3"><input id="v3" type="text" maxlength="1" oninput="verifica('v3', 'C', 'cel3', 'v4', 'v2')"></td>
+                <td id="cel4"><input id="v4" type="text" maxlength="1" oninput="verifica('v4', 'E', 'cel4', 'v5', 'v3')"></td>
+                <td id="cel5"><input id="v5" type="text" maxlength="1" oninput="verifica('v5', 'N', 'cel5', 'v6', 'v4')"></td>
+                <td id="cel6"><input id="v6" type="text" maxlength="1" oninput="verifica('v6', 'D', 'cel6', 'v7', 'v5')"></td>
+                <td id="cel7"><input id="v7" type="text" maxlength="1" oninput="verifica('v7', 'I', 'cel7', 'v8', 'v6')"></td>
+                <td id="cel8"><input id="v8" type="text" maxlength="1" oninput="verifica('v8', 'O', 'cel8', 'v9', 'v7')"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga2">
+            <tr>
+                <td id="cel9"><p class="text">2.</p><input id="v9" class="vuoto" type="text" maxlength="1" oninput="verifica('v9', 'A', 'cel9', 'v10')"></td>
+                <td id="cel10"><input id="v10" type="text" maxlength="1" oninput="verifica('v10', 'L', 'cel10', 'v11', 'v9')"></td>
+                <td id="cel11"><input id="v11" type="text" maxlength="1" oninput="verifica('v11', 'L', 'cel11', 'v12', 'v10')"></td>
+                <td id="cel12"><input id="v12" type="text" maxlength="1" oninput="verifica('v12', 'U', 'cel12', 'v13', 'v11')"></td>
+                <td id="cel13"><input id="v13" type="text" maxlength="1" oninput="verifica('v13', 'V', 'cel13', 'v14', 'v12')"></td>
+                <td id="cel14"><input id="v14" type="text" maxlength="1" oninput="verifica('v14', 'I', 'cel14', 'v15', 'v13')"></td>
+                <td id="cel15"><input id="v15" type="text" maxlength="1" oninput="verticale('v15', 'O', 'cel15', 'v16', 'v14')"></td>
+                <td id="cel16"><input id="v16" type="text" maxlength="1" oninput="verifica('v16', 'N', 'cel16', 'v17', 'v15')"></td>
+                <td id="cel17"><input id="v17" type="text" maxlength="1" oninput="verifica('v17', 'E', 'cel17', 'v18', 'v16')"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga3">
+            <tr>
+                <td id="cel18"><p class="text">3.</p><input id="v18" class="vuoto" type="text" maxlength="1" oninput="verifica('v18', 'F', 'cel18', 'v19')"></td>
+                <td id="cel19"><input id="v19" type="text" maxlength="1" oninput="verifica('v19', 'R', 'cel19', 'v20', 'v18')"></td>
+                <td id="cel20"><input id="v20" type="text" maxlength="1" oninput="verifica('v20', 'A', 'cel20', 'v21', 'v19')"></td>
+                <td id="cel21"><input id="v21" type="text" maxlength="1" oninput="verticale('v21', 'N', 'cel21', 'v22', 'v20')"></td>
+                <td id="cel22"><input id="v22" type="text" maxlength="1" oninput="verifica('v22', 'A', 'cel22', 'v23', 'v21')"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga4">
+            <tr>
+                <td id="cel23"><p class="text">4.</p><input id="v23" class="vuoto" type="text" maxlength="1" oninput="verifica('v23', 'I', 'cel23', 'v24')"></td>
+                <td id="cel24"><input id="v24" type="text" maxlength="1" oninput="verifica('v24', 'N', 'cel24', 'v25', 'v23')"></td>
+                <td id="cel25"><input id="v25" type="text" maxlength="1" oninput="verticale('v25', 'O', 'cel25', 'v26', 'v24')"></td>
+                <td id="cel26"><input id="v26" type="text" maxlength="1" oninput="verifica('v26', 'N', 'cel26', 'v27', 'v25')"></td>
+                <td id="cel27"><input id="v27" type="text" maxlength="1" oninput="verifica('v27', 'D', 'cel27', 'v28', 'v26')"></td>
+                <td id="cel28"><input id="v28" type="text" maxlength="1" oninput="verifica('v28', 'A', 'cel28', 'v29', 'v27')"></td>
+                <td id="cel29"><input id="v29" type="text" maxlength="1" oninput="verifica('v29', 'Z', 'cel29', 'v30', 'v28')"></td>
+                <td id="cel30"><input id="v30" type="text" maxlength="1" oninput="verifica('v30', 'I', 'cel30', 'v31', 'v29')"></td>
+                <td id="cel31"><input id="v31" type="text" maxlength="1" oninput="verifica('v31', 'O', 'cel31', 'v32', 'v30')"></td>
+                <td id="cel32"><input id="v32" type="text" maxlength="1" oninput="verifica('v32', 'N', 'cel32', 'v33', 'v31')"></td>
+                <td id="cel33"><input id="v33" type="text" maxlength="1" oninput="verifica('v33', 'E', 'cel33', 'v34', 'v32')"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga5">
+            <tr>
+                <td id="cel34"><p class="text">5.</p><input id="v34" class="vuoto" type="text" maxlength="1" oninput="verifica('v34', 'T', 'cel34', 'v35');"></td>
+                <td id="cel35"><input id="v35" type="text" maxlength="1" oninput="verifica('v35', 'S', 'cel35', 'v36', 'v34');"></td>
+                <td id="cel36"><input id="v36" type="text" maxlength="1" oninput="verifica('v36', 'U', 'cel36', 'v37', 'v35');"></td>
+                <td id="cel37"><input id="v37" type="text" maxlength="1" oninput="verticale('v37', 'N', 'cel37', 'v38', 'v36');"></td>
+                <td id="cel38"><input id="v38" type="text" maxlength="1" oninput="verifica('v38', 'A', 'cel38', 'v39', 'v37');"></td>
+                <td id="cel39"><input id="v39" type="text" maxlength="1" oninput="verifica('v39', 'M', 'cel39', 'v40', 'v38');"></td>
+                <td id="cel40"><input id="v40" type="text" maxlength="1" oninput="verifica('v40', 'I', 'cel40', 'v41', 'v39');"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga6">
+            <tr>
+                <td id="cel41"><p class="text">6.</p><input id="v41" class="vuoto" type="text" maxlength="1" oninput="verifica('v41', 'T', 'cel41', 'v42');"></td>
+                <td id="cel42"><input id="v42" type="text" maxlength="1" oninput="verifica('v42', 'E', 'cel42', 'v43', 'v41');"></td>
+                <td id="cel43"><input id="v43" type="text" maxlength="1" oninput="verifica('v43', 'R', 'cel43', 'v44', 'v42');"></td>
+                <td id="cel44"><input id="v44" type="text" maxlength="1" oninput="verticale('v44', 'R', 'cel44', 'v45', 'v43');"></td>
+                <td id="cel45"><input id="v45" type="text" maxlength="1" oninput="verifica('v45', 'E', 'cel45', 'v46', 'v44');"></td>
+                <td id="cel46"><input id="v46" type="text" maxlength="1" oninput="verifica('v46', 'M', 'cel46', 'v47', 'v45');"></td>
+                <td id="cel47"><input id="v47" type="text" maxlength="1" oninput="verifica('v47', 'O', 'cel47', 'v48', 'v46');"></td>
+                <td id="cel48"><input id="v48" type="text" maxlength="1" oninput="verifica('v48', 'T', 'cel48', 'v49', 'v47');"></td>
+                <td id="cel49"><input id="v49" type="text" maxlength="1" oninput="verifica('v49', 'O', 'cel49', 'v50', 'v48');"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga7">
+            <tr>
+                <td id="cel50"><p class="text">7.</p><input id="v50" class="vuoto" type="text" maxlength="1" oninput="verifica('v50', 'V', 'cel50', 'v51');"></td>
+                <td id="cel51"><input id="v51" type="text" maxlength="1" oninput="verifica('v51', 'I', 'cel51', 'v52', 'v50');"></td>
+                <td id="cel52"><input id="v52" type="text" maxlength="1" oninput="verifica('v52', 'G', 'cel52', 'v53', 'v51');"></td>
+                <td id="cel53"><input id="v53" type="text" maxlength="1" oninput="verticale('v53', 'I', 'cel53', 'v54', 'v52');"></td>
+                <td id="cel54"><input id="v54" type="text" maxlength="1" oninput="verifica('v54', 'L', 'cel54', 'v55', 'v53');"></td>
+                <td id="cel55"><input id="v55" type="text" maxlength="1" oninput="verifica('v55', 'A', 'cel55', 'v56', 'v54');"></td>
+                <td id="cel56"><input id="v56" type="text" maxlength="1" oninput="verifica('v56', 'N', 'cel56', 'v57', 'v55');"></td>
+                <td id="cel57"><input id="v57" type="text" maxlength="1" oninput="verifica('v57', 'Z', 'cel57', 'v58', 'v56');"></td>
+                <td id="cel58"><input id="v58" type="text" maxlength="1" oninput="verifica('v58', 'A', 'cel58', 'v59', 'v57');"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga8">
+            <tr>
+                <td id="cel59"><p class="text">8.</p><input id="v59" class="vuoto" type="text" maxlength="1" oninput="verticale('v59', 'S', 'cel59', 'v60');"></td>
+                <td id="cel60"><input id="v60" type="text" maxlength="1" oninput="verifica('v60', 'A', 'cel60', 'v61', 'v59');"></td>
+                <td id="cel61"><input id="v61" type="text" maxlength="1" oninput="verifica('v61', 'L', 'cel61', 'v62', 'v60');"></td>
+                <td id="cel62"><input id="v62" type="text" maxlength="1" oninput="verifica('v62', 'V', 'cel62', 'v63', 'v61');"></td>
+                <td id="cel63"><input id="v63" type="text" maxlength="1" oninput="verifica('v63', 'A', 'cel63', 'v64', 'v62');"></td>
+                <td id="cel64"><input id="v64" type="text" maxlength="1" oninput="verifica('v64', 'T', 'cel64', 'v65', 'v63');"></td>
+                <td id="cel65"><input id="v65" type="text" maxlength="1" oninput="verifica('v65', 'A', 'cel65', 'v66', 'v64');"></td>
+                <td id="cel66"><input id="v66" type="text" maxlength="1" oninput="verifica('v66', 'G', 'cel66', 'v67', 'v65');"></td>
+                <td id="cel67"><input id="v67" type="text" maxlength="1" oninput="verifica('v67', 'G', 'cel67', 'v68', 'v66');"></td>
+                <td id="cel68"><input id="v68" type="text" maxlength="1" oninput="verifica('v68', 'I', 'cel68', 'v69', 'v67');"></td>
+                <td id="cel69"><input id="v69" type="text" maxlength="1" oninput="verifica('v69', 'O', 'cel69', 'v70', 'v68');"></td>
+            </tr>
+        </table>       
+        <table border="1px" class="riga9">
+            <tr>
+                <td id="cel70"><p class="text">9.</p><input id="v70" class="vuoto" type="text" maxlength="1" oninput="verticale('v70', 'C', 'cel70', 'v71');"></td>
+                <td id="cel71"><input id="v71" type="text" maxlength="1" oninput="verifica('v71', 'A', 'cel71', 'v72', 'v70');"></td>
+                <td id="cel72"><input id="v72" type="text" maxlength="1" oninput="verifica('v72', 'L', 'cel72', 'v73', 'v71');"></td>
+                <td id="cel73"><input id="v73" type="text" maxlength="1" oninput="verifica('v73', 'A', 'cel73', 'v74', 'v72');"></td>
+                <td id="cel74"><input id="v74" type="text" maxlength="1" oninput="verifica('v74', 'M', 'cel74', 'v75', 'v73');"></td>
+                <td id="cel75"><input id="v75" type="text" maxlength="1" oninput="verifica('v75', 'I', 'cel75', 'v76', 'v74');"></td>
+                <td id="cel76"><input id="v76" type="text" maxlength="1" oninput="verifica('v76', 'T', 'cel76', 'v77', 'v75');"></td>
+                <td id="cel77"><input id="v77" type="text" maxlength="1" oninput="verifica('v77', 'A', 'cel77', 'v78', 'v76');"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga10">
+            <tr>
+                <td id="cel78"><p class="text">10.</p><input id="v78" class="vuoto" type="text" maxlength="1" oninput="verifica('v78', 'R', 'cel78', 'v79');"></td>
+                <td id="cel79"><input id="v79" type="text" maxlength="1" oninput="verifica('v79', 'I', 'cel79', 'v80', 'v78');"></td>
+                <td id="cel80"><input id="v80" type="text" maxlength="1" oninput="verifica('v80', 'S', 'cel80', 'v81', 'v79');"></td>
+                <td id="cel81"><input id="v81" type="text" maxlength="1" oninput="verifica('v81', 'C', 'cel81', 'v82', 'v80');"></td>
+                <td id="cel82"><input id="v82" type="text" maxlength="1" oninput="verticale('v82', 'H', 'cel82', 'v83', 'v81');"></td>
+                <td id="cel83"><input id="v83" type="text" maxlength="1" oninput="verifica('v83', 'I', 'cel83', 'v84', 'v82');"></td>
+                <td id="cel84"><input id="v84" type="text" maxlength="1" oninput="verifica('v84', 'O', 'cel84', 'v85', 'v83');"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga11">
+            <tr>
+                <td id="cel85"><p class="text1">11.</p><input id="v85" class="vuoto" type="text" maxlength="1" oninput="verifica('v85', 'P', 'cel85', 'v86');"></td>
+                <td id="cel86"><input id="v86" type="text" maxlength="1" oninput="verifica('v86', 'R', 'cel86', 'v87', 'v85');"></td>
+                <td id="cel87"><input id="v87" type="text" maxlength="1" oninput="verifica('v87', 'E', 'cel87', 'v88', 'v86');"></td>
+                <td id="cel88"><input id="v88" type="text" maxlength="1" oninput="verifica('v88', 'V', 'cel88', 'v89', 'v87');"></td>
+                <td id="cel89"><input id="v89" type="text" maxlength="1" oninput="verifica('v89', 'E', 'cel89', 'v90', 'v88');"></td>
+                <td id="cel90"><input id="v90" type="text" maxlength="1" oninput="verifica('v90', 'N', 'cel90', 'v91', 'v89');"></td>
+                <td id="cel91"><input id="v91" type="text" maxlength="1" oninput="verifica('v91', 'Z', 'cel91', 'v92', 'v90');"></td>
+                <td id="cel92"><input id="v92" type="text" maxlength="1" oninput="verticale('v92', 'I', 'cel92', 'v93', 'v91');"></td>
+                <td id="cel93"><input id="v93" type="text" maxlength="1" oninput="verifica('v93', 'O', 'cel93', 'v94', 'v92');"></td>
+                <td id="cel94"><input id="v94" type="text" maxlength="1" oninput="verifica('v94', 'N', 'cel94', 'v95', 'v93');"></td>
+                <td id="cel95"><input id="v95" type="text" maxlength="1" oninput="verifica('v95', 'E', 'cel95', 'v96', 'v94');"></td>
+            </tr>
+        </table>
+        <table border="1px" class="riga12">
+            <tr>
+                <td id="cel96"><p class="text">12.</p><input id="v96" class="vuoto" type="text" maxlength="1" oninput="verifica('v96', 'S', 'cel96', 'v97');"></td>
+                <td id="cel97"><input id="v97" type="text" maxlength="1" oninput="verifica('v97', 'O', 'cel97', 'v98', 'v96');"></td>
+                <td id="cel98"><input id="v98" type="text" maxlength="1" oninput="verifica('v98', 'C', 'cel98', 'v99', 'v97');"></td>
+                <td id="cel99"><input id="v99" type="text" maxlength="1" oninput="verifica('v99', 'C', 'cel99', 'v100', 'v98');"></td>
+                <td id="cel100"><input id="v100" type="text" maxlength="1" oninput="verticale('v100', 'O', 'cel100', 'v101', 'v99');"></td>
+                <td id="cel101"><input id="v101" type="text" maxlength="1" oninput="verifica('v101', 'R', 'cel101', 'v102', 'v100');"></td>
+                <td id="cel102"><input id="v102" type="text" maxlength="1" oninput="verifica('v102', 'S', 'cel102', 'v103', 'v101');"></td>
+                <td id="cel103"><input id="v103" type="text" maxlength="1" oninput="verifica('v103', 'O', 'cel103', 'v104', 'v102');"></td>
+            </tr>
+        </table>
+        <div class="domande">
+            <h2>Domande</h2>
+            <p>
+                <a onclick="alert('Rappresenta il fuoco che distrugge tutto. È un fenomeno pericoloso che può causare danni significativi, ma anche contribuire al rinnovo degli ecosistemi in alcuni casi naturali.')">1. Che cosa succede quando il fuoco brucia tutto?</a><br>
+                <a onclick="alert('Succede quando piove tanto e l\'acqua invade le aree circostanti, causando danni alle infrastrutture, alle coltivazioni e alle vite umane.')">2. Cosa succede quando piove tanto?</a><br>
+                <a onclick="alert('Quando la terra scivola giù da una montagna, si verifica una frana. Questo fenomeno può bloccare strade, danneggiare edifici e modificare il paesaggio.')">3. Cosa succede quando la terra scivola giù da una montagna?</a><br>
+                <a onclick="alert('Quando un fiume straripa, l\'acqua si espande nelle aree circostanti, causando alluvioni e distruzione.')">4. Cosa succede quando un fiume straripa?</a><br>
+                <a onclick="alert('Un\'enorme onda generata spesso da terremoti sottomarini o eruzioni vulcaniche che provoca danni significativi lungo la costa.')">5. Come si chiama un'enorme onda che arriva dal mare e causa molti danni?</a><br>
+                <a onclick="alert('È il fenomeno che si verifica quando la terra trema, causando distruzione di edifici, infrastrutture e potenzialmente la perdita di vite.')">6. Cosa fa la terra quando trema?</a><br>
+                <a onclick="alert('È l\'azione di guardare attentamente per evitare pericoli. È una forma di prevenzione per garantire la sicurezza personale.')">7. Cosa fa una persona quando guarda bene per evitare pericoli?</a><br>
+                <a onclick="alert('L\'atto di aiutare qualcuno in pericolo e di portarlo in un luogo sicuro, fondamentale in situazioni di emergenza.')">8. Come si chiama l'azione di aiutare qualcuno in pericolo o di portarlo in un luogo sicuro?</a><br>
+                <a onclick="alert('Un evento naturale come uragani, terremoti, tsunami o alluvioni che provoca danni significativi a persone e proprietà.')">9. Come si chiama un evento naturale che fa tanti danni?</a><br>
+                <a onclick="alert('Indica la possibilità che accada qualcosa di pericoloso. Il rischio può essere mitigato con azioni preventive.')">10. Come si chiama la possibilità che succeda qualcosa di pericoloso?</a><br>
+                <a onclick="alert('L\'atto di evitare o ridurre un pericolo attraverso misure precauzionali.')">11. Come si chiama evitare un pericolo?</a><br>
+                <a onclick="alert('È anche l\'azione di aiutare chi si è fatto male, fornendo cure immediate come parte del primo soccorso.')">12. Come si chiama aiutare chi si è fatto male?</a><br>
+                Inserici qua sotto la parola in verticale:
+            </p>
+        </div>
+        <input id="parolaSeg" class="parolaSegr" maxlength="14" oninput="parolaSegreta('IO NON RISCHIO');">
+        <button id="reset" class="reset" onclick="Reset();">Reset</button>
+        <button onclick="completa();" id="sug" class="suggerimento">Suggerimento</button>
+        <style>
+            body{
+                background-color: #ffb;
+            }
+.vuoto{
+    z-index: 2;
+}
+.text{
+    position: absolute;
+    left: 1px;
+    z-index: 1;
+}
+.text1{
+    position: absolute;
+    left: 9px;
+    z-index: 1;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+input{
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    background: transparent;
+    outline: none;
+}
+.domande{
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    font-size: 16px;
+    text-align: justify;
+}
+.parolaSegr{
+    position: absolute;
+    top: 51%;
+    right: 41.2%;
+    border: 1px solid;
+    border-radius: 7px;
+    height: 25px;
+    width: 100px;
+    text-align: left;
+    background-color: white;
+    font-size: 14px;
+}
+.reset{
+    position: absolute;
+    top: 55.5%;
+    right: 41.2%;
+    border-radius: 7px;
+    height: 25px;
+    width: 100px;
+}
+.suggerimento{
+    position: absolute;
+    top: 55.5%;
+    right: 34.5%;
+    border-radius: 7px;
+    height: 25px;
+    width: 100px;
+}
+.riga1 {
+    transform: translateX(285px);
+}
+.riga2{
+    transform: translateX(40px);
+}
+.riga3 {
+    transform: translateX(162.5px);
+}
+.riga4 {
+    transform: translateX(203.5px);
+}
+.riga5 {
+    transform: translateX(162.5px);
+}
+.riga6 {
+    transform: translateX(162.5px);
+}
+.riga7 {
+    transform: translateX(162.5px);
+}
+.riga8 {
+    transform: translateX(285.1px);
+}
+.riga9 {
+    transform: translateX(285.1px);
+}
+.riga10 {
+    transform: translateX(122px);
+}
+.riga12 {
+    transform: translateX(122px);
+}
+        </style>
+        <script>
+            function verifica(inputId, valoreCorretto, cellaId, nextInputId, prevInputId){
+    const input = document.getElementById(inputId);
+    const cella = document.getElementById(cellaId);
+
+    if(input.value.toUpperCase() === valoreCorretto.toUpperCase()){
+        cella.style.backgroundColor = "lightgreen";
+            if(input.value !== "" && nextInputId){
+            const nextInput = document.getElementById(nextInputId);
+            if(nextInput){
+                nextInput.focus();
+            }
+        }
+    } else if(input.value === ""){
+        cella.style.backgroundColor = "";
+    } else{
+        cella.style.backgroundColor = "red";
+        if(input.value === "" && prevInputId){
+            const prevInput = document.getElementById(prevInputId);
+            if(prevInput){
+                prevInput.focus();
+            }
+        }
+    }
+}
+function verticale(inputId, valoreCorretto, cellaId, nextInputId, prevInputId){
+    const input = document.getElementById(inputId);
+    const cella = document.getElementById(cellaId);
+
+    if(input.value.toUpperCase() === valoreCorretto.toUpperCase()){
+        cella.style.backgroundColor = "orange";
+            if(input.value !== "" && nextInputId){
+            const nextInput = document.getElementById(nextInputId);
+            if(nextInput){
+                nextInput.focus();
+            }
+        }
+    } else if(input.value === ""){
+        cella.style.backgroundColor = "";
+    } else{
+        cella.style.backgroundColor = "red";
+        if(input.value === "" && prevInputId){
+            const prevInput = document.getElementById(prevInputId);
+            if(prevInput){
+                prevInput.focus();
+            }
+        }
+    }
+}
+function parolaSegreta(risp){
+    const input = document.getElementById("parolaSeg");
+    const orange = document.getElementById("cel100");
+    if(orange.style.backgroundColor === "orange"){
+        if(input.value.toUpperCase() === risp.toUpperCase()){
+            input.style.backgroundColor = "lightgreen";
+            setTimeout(function(){
+                alert("Complimenti! Hai completato il cruciverba di Io Non Rischio.");
+            }, 500);
+        }
+    } else{
+        input.style.backgroundColor = "";
+    }
+}
+function Reset(){
+    const inputs = document.querySelectorAll("input[type='text']");
+    const cell = document.querySelectorAll("td");
+    const sec = document.getElementById("parolaSeg");
+    inputs.forEach(input => {
+        input.value = "";
+    });
+    cell.forEach(td => {
+        td.style.backgroundColor = "";
+    });
+    sec.style.backgroundColor = "";
+    sec.value = "";
+    const but = document.getElementById("sug");
+    but.style.display = "block";
+}
+function completa() {   // funzione da eliminare prima della consegna finale
+    const soluzioni = {
+        // riga 1
+        "v1": { valore: "I", funzione: "verticale" },
+        "v2": { valore: "N", funzione: "verifica" },
+        "v3": { valore: "C", funzione: "verifica" },
+        "v4": { valore: "E", funzione: "verifica" },
+        "v5": { valore: "N", funzione: "verifica" },
+        "v6": { valore: "D", funzione: "verifica" },
+        "v7": { valore: "I", funzione: "verifica" },
+        "v8": { valore: "O", funzione: "verifica" },
+        // riga 2
+        "v9": { valore: "A", funzione: "verifica" },
+        "v10": { valore: "L", funzione: "verifica" },
+        "v11": { valore: "L", funzione: "verifica" },
+        "v12": { valore: "U", funzione: "verifica" },
+        "v13": { valore: "V", funzione: "verifica" },
+        "v14": { valore: "I", funzione: "verifica" },
+        "v15": { valore: "O", funzione: "verticale" },
+        "v16": { valore: "N", funzione: "verifica" },
+        "v17": { valore: "E", funzione: "verifica" },
+        // riga 3
+        "v18": { valore: "F", funzione: "verifica" },
+        "v19": { valore: "R", funzione: "verifica" },
+        "v20": { valore: "A", funzione: "verifica" },
+        "v21": { valore: "N", funzione: "verticale" },
+        "v22": { valore: "A", funzione: "verifica" },
+        // RIGA 4
+        "v23": { valore: "I", funzione: "verifica" },
+        "v24": { valore: "N", funzione: "verifica" },
+        "v25": { valore: "O", funzione: "verticale" },
+        "v26": { valore: "N", funzione: "verifica" },
+        "v27": { valore: "D", funzione: "verifica" },
+        "v28": { valore: "A", funzione: "verifica" },
+        "v29": { valore: "Z", funzione: "verifica" },
+        "v30": { valore: "I", funzione: "verifica" },
+        "v31": { valore: "O", funzione: "verifica" },
+        "v32": { valore: "N", funzione: "verifica" },
+        "v33": { valore: "E", funzione: "verifica" },
+        // RIGA 5
+        "v34": { valore: "T", funzione: "verifica" },
+        "v35": { valore: "S", funzione: "verifica" },
+        "v36": { valore: "U", funzione: "verifica" },
+        "v37": { valore: "N", funzione: "verticale" },
+        "v38": { valore: "A", funzione: "verifica" },
+        "v39": { valore: "M", funzione: "verifica" },
+        "v40": { valore: "I", funzione: "verifica" },
+        // RIGA 6
+        "v41": { valore: "T", funzione: "verifica" },
+        "v42": { valore: "E", funzione: "verifica" },
+        "v43": { valore: "R", funzione: "verifica" },
+        "v44": { valore: "R", funzione: "verticale" },
+        "v45": { valore: "E", funzione: "verifica" },
+        "v46": { valore: "M", funzione: "verifica" },
+        "v47": { valore: "O", funzione: "verifica" },
+        "v48": { valore: "T", funzione: "verifica" },
+        "v49": { valore: "O", funzione: "verifica" },
+        // RIGA 7
+        "v50": { valore: "V", funzione: "verifica" },
+        "v51": { valore: "I", funzione: "verifica" },
+        "v52": { valore: "G", funzione: "verifica" },
+        "v53": { valore: "I", funzione: "verticale" },
+        "v54": { valore: "L", funzione: "verifica" },
+        "v55": { valore: "A", funzione: "verifica" },
+        "v56": { valore: "N", funzione: "verifica" },
+        "v57": { valore: "Z", funzione: "verifica" },
+        "v58": { valore: "A", funzione: "verifica" },
+        // RIGA 8
+        "v59": { valore: "S", funzione: "verticale" },
+        "v60": { valore: "A", funzione: "verifica" },
+        "v61": { valore: "L", funzione: "verifica" },
+        "v62": { valore: "V", funzione: "verifica" },
+        "v63": { valore: "A", funzione: "verifica" },
+        "v64": { valore: "T", funzione: "verifica" },
+        "v65": { valore: "A", funzione: "verifica" },
+        "v66": { valore: "G", funzione: "verifica" },
+        "v67": { valore: "G", funzione: "verifica" },
+        "v68": { valore: "I", funzione: "verifica" },
+        "v69": { valore: "O", funzione: "verifica" },
+        // RIGA 9
+        "v70": { valore: "C", funzione: "verticale" },
+        "v71": { valore: "A", funzione: "verifica" },
+        "v72": { valore: "L", funzione: "verifica" },
+        "v73": { valore: "A", funzione: "verifica" },
+        "v74": { valore: "M", funzione: "verifica" },
+        "v75": { valore: "I", funzione: "verifica" },
+        "v76": { valore: "T", funzione: "verifica" },
+        "v77": { valore: "A", funzione: "verifica" },
+        // RIGA 10
+        "v78": { valore: "R", funzione: "verifica" },
+        "v79": { valore: "I", funzione: "verifica" },
+        "v80": { valore: "S", funzione: "verifica" },
+        "v81": { valore: "C", funzione: "verifica" },
+        "v82": { valore: "H", funzione: "verticale" },
+        "v83": { valore: "I", funzione: "verifica" },
+        "v84": { valore: "O", funzione: "verifica" },
+        // RIGA 11
+        "v85": { valore: "P", funzione: "verifica" },
+        "v86": { valore: "R", funzione: "verifica" },
+        "v87": { valore: "E", funzione: "verifica" },
+        "v88": { valore: "V", funzione: "verifica" },
+        "v89": { valore: "E", funzione: "verifica" },
+        "v90": { valore: "N", funzione: "verifica" },
+        "v91": { valore: "Z", funzione: "verifica" },
+        "v92": { valore: "I", funzione: "verticale" },
+        "v93": { valore: "O", funzione: "verifica" },
+        "v94": { valore: "N", funzione: "verifica" },
+        "v95": { valore: "E", funzione: "verifica" },
+        // RIGA 12
+        "v96": { valore: "S", funzione: "verifica" },
+        "v97": { valore: "O", funzione: "verifica" },
+        "v98": { valore: "C", funzione: "verifica" },
+        "v99": { valore: "C", funzione: "verifica" },
+        "v100": { valore: "O", funzione: "verticale" },
+        "v101": { valore: "R", funzione: "verifica" },
+        "v102": { valore: "S", funzione: "verifica" },
+        "v103": { valore: "O", funzione: "verifica" }
+    };
+    const ids = Object.keys(soluzioni);
+    shuffleArray(ids);
+    for (let i = 0; i < 30; i++) {
+        const id = ids[i];
+        const input = document.getElementById(id);
+        const soluzione = soluzioni[id];
+
+        if (input && soluzione) {
+            input.value = soluzione.valore;
+
+            const cellaId = `cel${id.replace("v", "")}`;
+            if (soluzione.funzione === "verifica") {
+                verifica(id, soluzione.valore, cellaId);
+            } else if (soluzione.funzione === "verticale") {
+                verticale(id, soluzione.valore, cellaId);
+            }
+        }
+    }
+    const but = document.getElementById("sug");
+    but.style.display = "none";
+}
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Scambia gli elementi
+    }
+}
+        </script>
+    </body>
+</html>
