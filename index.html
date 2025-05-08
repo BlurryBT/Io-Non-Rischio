@@ -1,6 +1,13 @@
 <html>
     <head>
         <title>Io Non Ricshio</title>
+        <style>
+            body{
+                background: url(../imagine/sfondo.png);
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
     </head>
     <body>
         <script>
@@ -11,10 +18,6 @@
                 click.style.left = "0";
                 click.style.width = "100vw";
                 click.style.height = "100vh";
-                click.style.backgroundImage = "url(../imagine/sfondo.png)";
-                click.style.backgroundPosition = "center";
-                click.style.backgroundRepeat = "no-repeat";
-                click.style.backgroundSize = "cover";
                 document.body.appendChild(click);
                 click.addEventListener("click", function(){
                     location.href = "spiegazioni.html";
