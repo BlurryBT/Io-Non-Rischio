@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>Io Non Ricshio</title>
+        <style>
+            body{
+                background-color: #ffb;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                incendio();
+            });
+            
+            function incendio(){
+                document.body.innerHTML = "";
+                const incendio = document.createElement('div');
+                incendio.style.whiteSpace = "pre-line";
+                incendio.style.position = "absolute";
+                incendio.style.top = "50%";
+                incendio.style.left = "50%";
+                incendio.style.fontSize = "25px";
+                incendio.style.transform = "translate(-50%, -50%)";
+                incendio.innerHTML = `<strong>Che cos’è un incendio?</strong>\n
+                Un incendio è un fuoco molto grande che si accende e si diffonde velocemente.\n
+                Può bruciare alberi, case o altre cose. A volte succede in un bosco, altre volte in città.\n
+                È pericoloso, perché il fuoco può fare male alle persone, agli animali e rovinare l’ambiente.\n
+                Per questo è importante fare attenzione: non si gioca mai con i fiammiferi, gli accendini o il fuoco!`;
+
+                const incendioImg = document.createElement('div');
+                incendioImg.style.background = "url(imagine/incendio.png)";
+                incendioImg.style.backgroundRepeat = "no-repeat";
+                incendioImg.style.width = "50%";
+                incendioImg.style.height = "50%";
+                incendioImg.style.position = "absolute";
+                incendioImg.style.top = "25%";
+                incendioImg.style.left = "4%";
+
+                const eventoSucc = document.createElement('button');
+                eventoSucc.style.width = "60px";
+                eventoSucc.style.height = "30px";
+                eventoSucc.textContent = "Pagina successiva";
+                eventoSucc.style.fontSize = "10px";
+                eventoSucc.style.position = "absolute";
+                eventoSucc.style.top = "95%";
+                eventoSucc.style.left = "50%";
+                eventoSucc.style.transform = "translate(-50%, -50%)";
+                eventoSucc.addEventListener('click', function(){
+                    terremoto();
+                });
+
+                document.body.appendChild(eventoSucc);
+                document.body.appendChild(incendioImg);
+                document.body.appendChild(incendio);
+            }
+            function terremoto(){
+                document.body.innerHTML = "";
+                const terremoto = document.createElement('div');
+                terremoto.style.whiteSpace = "pre-line";
+                terremoto.style.position = "absolute";
+                terremoto.style.top = "50%";
+                terremoto.style.left = "50%";
+                terremoto.style.fontSize = "25px";
+                terremoto.style.transform = "translate(-50%, -50%)";
+                terremoto.innerHTML = `<strong>Che cos’è un terremoto?</strong>\n
+                Il terremoto è quando la terra trema sotto i nostri piedi.\n
+                Succede perché sotto il suolo ci sono dei pezzi di terra (si chiamano “placche”) che si muovono e, quando si scontrano, fanno tremare tutto.\n
+                A volte il terremoto è così piccolo che non lo sentiamo. Altre volte è più forte e può far cadere le cose o rompere i muri.\n
+                Per questo è importante sapere cosa fare per stare al sicuro!`;
+
+                const terremotoImg = document.createElement('div');
+                terremotoImg.style.background = "url(imagine/terremoto.png)";
+                terremotoImg.style.backgroundRepeat = "no-repeat";
+                terremotoImg.style.backgroundSize = "cover";
+                terremotoImg.style.width = "20%";
+                terremotoImg.style.height = "20%";
+                terremotoImg.style.position = "absolute";
+                terremotoImg.style.top = "25%";
+                terremotoImg.style.left = "4%";
+
+                const eventoPrec = document.createElement('button');
+                eventoPrec.style.width = "60px";
+                eventoPrec.style.height = "30px";
+                eventoPrec.textContent = "Pagina precedente";
+                eventoPrec.style.fontSize = "10px";
+                eventoPrec.style.position = "absolute";
+                eventoPrec.style.top = "95%";
+                eventoPrec.style.left = "48%";
+                eventoPrec.style.transform = "translate(-50%, -50%)";
+                eventoPrec.addEventListener('click', function(){
+                    incendio();
+                });
+                const eventoSucc = document.createElement('button');
+                eventoSucc.style.width = "60px";
+                eventoSucc.style.height = "30px";
+                eventoSucc.textContent = "Pagina successiva";
+                eventoSucc.style.fontSize = "10px";
+                eventoSucc.style.position = "absolute";
+                eventoSucc.style.top = "95%";
+                eventoSucc.style.left = "52%";
+                eventoSucc.style.transform = "translate(-50%, -50%)";
+                eventoSucc.addEventListener('click', function(){
+                    inondazione();
+                });
+                
+                document.body.appendChild(terremotoImg);
+                document.body.appendChild(eventoSucc);
+                document.body.appendChild(eventoPrec);
+                document.body.appendChild(terremoto);
+            }
+            function inondazione(){
+                document.body.innerHTML = "";
+                const inondazione = document.createElement('div');
+                inondazione.style.whiteSpace = "pre-line";
+                inondazione.style.position = "absolute";
+                inondazione.style.top = "50%";
+                inondazione.style.left = "50%";
+                inondazione.style.fontSize = "25px";
+                inondazione.style.transform = "translate(-50%, -50%)";
+                inondazione.innerHTML = `<strong>Che cos’è un’inondazione?</strong>\n
+                Un’inondazione succede quando c’è troppa acqua, come dopo tanta pioggia o se un fiume esce fuori dal suo letto.\n
+                L’acqua si sparge ovunque e può entrare nelle strade, nelle case e nei campi.\n
+                Può bagnare tutto e rovinare molte cose, ma se stiamo attenti e seguiamo le regole, possiamo proteggerci!`;
+
+                const inondazioneImg = document.createElement('div');
+                inondazioneImg.style.background = "url(imagine/inondazione.png)";
+                inondazioneImg.style.backgroundRepeat = "no-repeat";
+                inondazioneImg.style.backgroundSize = "cover";
+                inondazioneImg.style.width = "20%";
+                inondazioneImg.style.height = "20%";
+                inondazioneImg.style.position = "absolute";
+                inondazioneImg.style.top = "25%";
+                inondazioneImg.style.left = "4%";
+
+                const eventoPrec = document.createElement('button');
+                eventoPrec.style.width = "60px";
+                eventoPrec.style.height = "30px";
+                eventoPrec.textContent = "Pagina precedente";
+                eventoPrec.style.fontSize = "10px";
+                eventoPrec.style.position = "absolute";
+                eventoPrec.style.top = "95%";
+                eventoPrec.style.left = "48%";
+                eventoPrec.style.transform = "translate(-50%, -50%)";
+                eventoPrec.addEventListener('click', function(){
+                    terremoto();
+                });
+                const eventoSucc = document.createElement('button');
+                eventoSucc.style.width = "60px";
+                eventoSucc.style.height = "30px";
+                eventoSucc.textContent = "Pagina successiva";
+                eventoSucc.style.fontSize = "10px";
+                eventoSucc.style.position = "absolute";
+                eventoSucc.style.top = "95%";
+                eventoSucc.style.left = "52%";
+                eventoSucc.style.transform = "translate(-50%, -50%)";
+                eventoSucc.addEventListener('click', function(){
+                    alluvione();
+                });
+                
+                document.body.appendChild(inondazioneImg);
+                document.body.appendChild(eventoSucc);
+                document.body.appendChild(eventoPrec);
+                document.body.appendChild(inondazione);
+            }
+            function alluvione(){
+                document.body.innerHTML = "";
+                const alluvione = document.createElement('div');
+                alluvione.style.whiteSpace = "pre-line";
+                alluvione.style.position = "absolute";
+                alluvione.style.top = "50%";
+                alluvione.style.left = "50%";
+                alluvione.style.fontSize = "25px";
+                alluvione.style.transform = "translate(-50%, -50%)";
+                alluvione.innerHTML = `<strong>Che cos’è un’alluvione?</strong>\n
+                Un’alluvione è quando piove tantissimo e l’acqua non riesce più ad andare via.\n
+                I fiumi si riempiono troppo e l’acqua esce fuori, invadendo le strade, le case e i giardini.\n
+                È come se tutto si riempisse d’acqua, come una grande pozzanghera.\n
+                L’alluvione può fare danni, ma se ascoltiamo gli adulti e seguiamo le regole, possiamo stare al sicuro!`;
+
+                const alluvioneImg = document.createElement('div');
+                alluvioneImg.style.background = "url(imagine/alluvione.png)";
+                alluvioneImg.style.backgroundRepeat = "no-repeat";
+                alluvioneImg.style.backgroundSize = "cover";
+                alluvioneImg.style.width = "20%";
+                alluvioneImg.style.height = "30%";
+                alluvioneImg.style.position = "absolute";
+                alluvioneImg.style.top = "25%";
+                alluvioneImg.style.left = "4%";
+
+                const eventoPrec = document.createElement('button');
+                eventoPrec.style.width = "60px";
+                eventoPrec.style.height = "30px";
+                eventoPrec.textContent = "Pagina precedente";
+                eventoPrec.style.fontSize = "10px";
+                eventoPrec.style.position = "absolute";
+                eventoPrec.style.top = "95%";
+                eventoPrec.style.left = "48%";
+                eventoPrec.style.transform = "translate(-50%, -50%)";
+                eventoPrec.addEventListener('click', function(){
+                    inondazione();
+                });
+                const eventoSucc = document.createElement('button');
+                eventoSucc.style.width = "60px";
+                eventoSucc.style.height = "30px";
+                eventoSucc.textContent = "Vai al cruciverba";
+                eventoSucc.style.fontSize = "10px";
+                eventoSucc.style.position = "absolute";
+                eventoSucc.style.top = "95%";
+                eventoSucc.style.left = "52%";
+                eventoSucc.style.transform = "translate(-50%, -50%)";
+                eventoSucc.addEventListener('click', function(){
+                    location.href = "cruciverba.html";
+                });
+                
+                document.body.appendChild(alluvioneImg);
+                document.body.appendChild(eventoSucc);
+                document.body.appendChild(eventoPrec);
+                document.body.appendChild(alluvione);
+            }
+        </script>
+    </body>
+</html>
