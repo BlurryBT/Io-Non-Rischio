@@ -4,6 +4,9 @@
     </head>
     <body>
         <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                    PaginaDopo();
+            });
             function PaginaDopo(){
                 const click = document.createElement('div');
                 click.style.position = 'fixed';
@@ -20,10 +23,6 @@
                     location.href = "spiegazioni.html";
                 });
             }
-
-            document.addEventListener("DOMContentLoaded", function() {
-                    PaginaDopo();
-            });
         </script>
     </body>
 </html>
