@@ -4,9 +4,6 @@
     </head>
     <body>
         <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                    PaginaDopo();
-            });
             function PaginaDopo(){
                 const click = document.createElement('div');
                 click.style.position = 'fixed';
@@ -14,7 +11,7 @@
                 click.style.left = "0";
                 click.style.width = "100vw";
                 click.style.height = "100vh";
-                click.style.backgroundImage = "url(sfondo.png)";
+                click.style.backgroundImage = "url(../imagine/sfondo.png)";
                 click.style.backgroundPosition = "center";
                 click.style.backgroundRepeat = "no-repeat";
                 click.style.backgroundSize = "cover";
@@ -23,6 +20,10 @@
                     location.href = "spiegazioni.html";
                 });
             }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                    PaginaDopo();
+            });
         </script>
     </body>
 </html>
